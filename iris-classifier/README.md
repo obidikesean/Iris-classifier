@@ -1,17 +1,12 @@
-# Iris Classifier Project
+# Iris Classifier (Decision Tree)
 
-This project trains a machine learning model using the Iris dataset to classify iris species based on flower measurements.
+## Overview
+End‑to‑end ML example from Digital Marketing Mastery Module → builds a decision‑tree classifier on the classic Iris dataset using scikit‑learn.
 
-## How to Run the Project
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Run training script:
-   ```bash
-   python src/train.py
-   ```
-
-3. **Output**: The script will print the model's accuracy, and save the trained model (`model.joblib`) and a confusion matrix plot (`confusion_matrix.png`) into the `/outputs` directory.
+## Quick start
+```bash
+git clone https://github.com/obidikesean/Iris-classifier.git
+cd iris-classifier
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+python src/train.py 
