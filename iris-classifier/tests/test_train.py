@@ -1,4 +1,4 @@
-from train import train_model
+from src.train import train_model
 
 def test_train_model():
     """Tests the train_model function."""
