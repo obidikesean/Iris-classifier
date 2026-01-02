@@ -1,5 +1,5 @@
 __pycache__/
 .ipynb_checkpoints/
-outputs/
 .vscode/
 *.pyc
+outputs/
